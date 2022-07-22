@@ -17,3 +17,8 @@ You can pin the extension if you like by clicking the extensions button on the t
 
 ## Disclaimer
 This extension is only really intended to be used by a relatively small number of people at this point in time. It utilizes a text scrambler function that is not complex nor secure -- but it gets the job done in the sense that it makes passwords long and nonsensical. If everybody in the world used this for all their passwords, it would be the equivalent of everybody using one password on all sites as "hackers" would be able to utilize the scrambling algorithm found within this source code. Fortunately, that scenario is improbable. 
+
+
+## Notes
+- It's best practice to only use second-level domain names for this extension. I.e., do not input "google.com" but rather just "google".
+- The "character limit" field is optional. 
