@@ -22,6 +22,7 @@ function shuffle(site, mpw) {
         j++
     }
 
+    console.log(news)
     return news
   }
 
@@ -56,5 +57,5 @@ function handleClick(event){
     setPW()
 }
 
-//var sbutton = document.getElementById('submit');
-//sbutton.addEventListener('click', getPW);
+var sbutton = document.getElementById('submit');
+sbutton.addEventListener('click', setPW);

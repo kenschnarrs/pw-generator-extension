@@ -34,7 +34,7 @@ input {
     border-right: 0px;
 
 
-    font-size: larger;
+    font-size: small;
     border-radius: 10px;
 
     width:inherit
@@ -58,12 +58,13 @@ input {
 
 .header-control{
     justify-content: flex-start;
+    font-size: small;
     color: rgb(255, 0, 0)
 }
 
 .body-control{
     position: relative;
-    top:150px;
+    top:10px;
     background-color:rgb(15, 15, 15);
     color: rgb(15, 15, 15)
 }
@@ -71,7 +72,7 @@ input {
 .label-mine{
 
     position: relative;
-    top:80px;
+    top:40px;
     border-style: solid !important;
     border-color: rgb(34, 34, 34) !important;
     border-width:5px;

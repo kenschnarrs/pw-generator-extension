@@ -1,8 +1,8 @@
 {
-    "name": "PW Manager",
+    "name": "Password Generator",
     "version": "1.0.0",
     "description": "Generates passwords given site name and master PW.",
-    "manifest_version": 1,
+    "manifest_version": 3,
     "author": "Ken Schnarrs",
     "action":{
         "default_popup": "index.html",
