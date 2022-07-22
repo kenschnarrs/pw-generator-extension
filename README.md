@@ -1,4 +1,4 @@
-# pw-manager-extension
+# Password Generator Chrome Extension
 A simple password generator that returns a unique password when given a site name and a master password. This unique password is (by design) meant to reproducible. This way, the user only needs to remember a master password and know the name of the site they are trying to access. There is no need for storage of passwords even locally on the user's machine. By accomplishing this, the user's password data is not easily compromiseable. 
 
 
