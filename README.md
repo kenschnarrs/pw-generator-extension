@@ -4,7 +4,7 @@ A simple password generator that returns a unique password when given a site nam
 
 ## How to add to your browser:
 
-1. Download the zip file
+1. Download the zip file (click "Code", "Download Zip")
 2. Unzip it via the file explorer (or terminal if you're cool)
 3. Go to your Chromium-based browser's extension manager page
 4. Turn on "Developer mode"
