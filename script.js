@@ -1,20 +1,21 @@
 
-function generatePW(mpw, site){
-    var mpwv = mpw.value
-    var sitev = site.value
+function generatePW(){
+    var mpw = document.getElementById("mpw").value
+    var site = document.getElementById("site").value
+    console.log("PASSWORD", mpw)
+    console.log("SITE", site)
 
-
-    return "AHHHHH"
+    return site+mpw
 }
 
-function getPW(event) {
-
+function setPW() {
     var label = document.getElementById("label")
-
     label.innerHTML = generatePW()
-    event.preventDefault()
-   
 }
 
-var sbutton = document.getElementById('submit');
-sbutton.addEventListener('click', getPW);
+function handleClick(event){
+    setPW()
+}
+
+//var sbutton = document.getElementById('submit');
+//sbutton.addEventListener('click', getPW);

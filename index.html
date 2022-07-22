@@ -4,18 +4,31 @@
     <title>Password Generator</title>
     <meta charset="utf-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-    <form>
-        <p>Please enter site name and master password:</p>
-        <input id="site" type="text" placeholder="site name">
-        <input id="mpw" type="text" placeholder="master password">
-        <button id="submit" onclick="getPW()" type="submit">Submit</button>  
+    <link href="styles.css" rel="stylesheet">
 
-        <label id="label">
-            
-        </label>
-    </form>    
+</head>
+<body class="body-control">
+    
+    <div class="form-container">
+
+        <form>
+            <div class="form-mine">
+                <h3 class="header-control">Please enter site name and master password:</p>
+                <input class="form-entry-mine" id="site" type="text" placeholder="site name">
+                <input class="form-entry-mine" id="mpw" type="text" placeholder="master password">
+
+                <div class="button-container">
+                    <button class="btn btn-primary" id="submit" onclick="handleClick()" type="button">Submit</button> 
+
+                </div>
+                <label id="label">
+                
+                </label>
+            </div>
+        </form>  
+    </div>
+ 
 </body>
 <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </html>
